@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Güzel Perfumes",
+  "alternateName": "Güzel",
+  "url": "https://guzel-perfumes.com",
+  "logo": "https://guzel-perfumes.com/assets/logo.png",
+  "description": "أفضل موقع لشراء العطور الأصلية في مصر. اكتشف عطور Güzel الفاخرة بأسعار رائعة.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "EG",
+    "addressLocality": "Egypt"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+201125860865",
+    "contactType": "customer service",
+    "availableLanguage": "Arabic"
+  },
+  "sameAs": [
+    "https://facebook.com/guzelperfumes",
+    "https://instagram.com/guzelperfumes",
+    "https://twitter.com/guzelperfumes"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "عطور Güzel",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "عطر ليالي القاهرة",
+          "description": "مزيج شرقي فاخر يدوم طويلاً ويمنحك حضورًا لا يُنسى.",
+          "category": "عطور رجالى",
+          "brand": {
+            "@type": "Brand",
+            "name": "Güzel"
+          }
+        },
+        "price": "950",
+        "priceCurrency": "EGP"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "عطر روز جولد",
+          "description": "عبير الزهور مع لمسة فاخرة تناسب جميع الأوقات.",
+          "category": "عطور حريمى",
+          "brand": {
+            "@type": "Brand",
+            "name": "Güzel"
+          }
+        },
+        "price": "1100",
+        "priceCurrency": "EGP"
+      }
+    ]
+  }
+} 

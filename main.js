@@ -205,4 +205,50 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('tab-men').classList.remove('active');
     renderCategoryCards('women');
   });
+
+  // Additional JavaScript from HTML files
+  // Set current year in footer
+  const yearElement = document.getElementById('year');
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+  
+  // Soft scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+  
+  // Simple form validation (optional)
+  const form2 = document.querySelector('form');
+  if (form2) {
+    form2.addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('تم إرسال رسالتك بنجاح! سنقوم بالتواصل معك قريبًا.');
+      this.reset();
+    });
+  }
+  
+  // WhatsApp order button logic for static cards
+  function setupWhatsAppOrderButtons() {
+    document.querySelectorAll('.whatsapp-order').forEach(function (btn) {
+      btn.onclick = function () {
+        var card = btn.closest('.card-body');
+        var product = card ? card.querySelector('.card-title').textContent.trim() : '';
+        var url = 'https://wa.me/201125860865?text=' + encodeURIComponent('مرحبًا، أود طلب منتج: ' + product);
+        window.open(url, '_blank');
+        return false;
+      };
+    });
+  }
+  
+  setupWhatsAppOrderButtons();
+  
+  // Initialize any other functionality
+  console.log('Güzel Perfumes website loaded successfully!');
 }); 

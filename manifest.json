@@ -1,0 +1,25 @@
+{
+  "name": "Güzel - عطور فاخرة في مصر",
+  "short_name": "Güzel",
+  "description": "أفضل موقع لشراء العطور الأصلية في مصر. اكتشف عطور Güzel الفاخرة بأسعار رائعة.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#18171c",
+  "theme_color": "#e0b973",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["shopping", "lifestyle", "beauty"],
+  "lang": "ar",
+  "dir": "rtl"
+} 

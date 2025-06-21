@@ -8,7 +8,69 @@
     <meta name="description" content="أفضل موقع لشراء العطور الأصلية في مصر. اكتشف عطور Güzel الفاخرة بأسعار رائعة.">
     <meta name="keywords"
         content="شراء عطور اونلاين مصر, افضل عطور في مصر, ماركات عطور مصرية, عطور فاخرة القاهرة, عطور أصلية مصر, خصومات عطور مصر">
+    <meta name="author" content="Güzel Perfumes">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Arabic">
+    <meta name="geo.region" content="EG">
+    <meta name="geo.placename" content="Egypt">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://guzel-perfumes.com/">
+    <meta property="og:title" content="Güzel | عطور فاخرة في مصر">
+    <meta property="og:description" content="أفضل موقع لشراء العطور الأصلية في مصر. اكتشف عطور Güzel الفاخرة بأسعار رائعة.">
+    <meta property="og:image" content="https://guzel-perfumes.com/assets/logo.png">
+    <meta property="og:locale" content="ar_EG">
+    <meta property="og:site_name" content="Güzel Perfumes">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://guzel-perfumes.com/">
+    <meta property="twitter:title" content="Güzel | عطور فاخرة في مصر">
+    <meta property="twitter:description" content="أفضل موقع لشراء العطور الأصلية في مصر. اكتشف عطور Güzel الفاخرة بأسعار رائعة.">
+    <meta property="twitter:image" content="https://guzel-perfumes.com/assets/logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://guzel-perfumes.com/">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="assets/logo.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Güzel">
+    
     <title>Güzel | عطور فاخرة في مصر</title>
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Güzel Perfumes",
+      "alternateName": "Güzel",
+      "url": "https://guzel-perfumes.com",
+      "logo": "https://guzel-perfumes.com/assets/logo.png",
+      "description": "أفضل موقع لشراء العطور الأصلية في مصر. اكتشف عطور Güzel الفاخرة بأسعار رائعة.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "EG",
+        "addressLocality": "Egypt"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+201125860865",
+        "contactType": "customer service",
+        "availableLanguage": "Arabic"
+      },
+      "sameAs": [
+        "https://facebook.com/guzelperfumes",
+        "https://instagram.com/guzelperfumes",
+        "https://twitter.com/guzelperfumes"
+      ]
+    }
+    </script>
     <!-- Google Fonts: Tajawal -->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- Bootstrap 5 CSS -->
@@ -19,239 +81,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: 'Tajawal', Arial, sans-serif;
-            background: #18171c;
-            color: #f5f5f7;
-            min-height: 100vh;
-            scroll-behavior: smooth;
-        }
-
-        .navbar {
-            background: #23222a;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-        }
-
-        .navbar-brand {
-            font-weight: 900;
-            font-size: 2rem;
-            color: #e0b973 !important;
-            letter-spacing: 2px;
-        }
-
-        .nav-link,
-        .footer-link {
-            color: #f5f5f7 !important;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-
-        .nav-link:hover,
-        .footer-link:hover {
-            color: #e0b973 !important;
-        }
-
-        .hero {
-            background: linear-gradient(120deg, #23222a 60%, #18171c 100%);
-            min-height: 80vh;
-            display: flex;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-bg {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            z-index: 0;
-            opacity: 0.18;
-            background: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
-            filter: blur(2px);
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero-title {
-            font-size: 2.5rem;
-            font-weight: 900;
-            color: #e0b973;
-            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .hero-subtitle {
-            font-size: 1.3rem;
-            color: #f5f5f7;
-            margin-bottom: 2rem;
-            font-weight: 500;
-        }
-
-        .btn-gold {
-            background: linear-gradient(90deg, #e0b973 60%, #bfa14a 100%);
-            color: #18171c;
-            font-weight: 700;
-            border-radius: 2rem;
-            padding: 0.75rem 2.5rem;
-            font-size: 1.2rem;
-            box-shadow: 0 4px 16px rgba(224, 185, 115, 0.12);
-            transition: background 0.2s, color 0.2s;
-        }
-
-        .btn-gold:hover {
-            background: #e0b973;
-            color: #23222a;
-        }
-
-        .features-section {
-            background: #23222a;
-            border-radius: 2rem;
-            margin-top: -3rem;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-            padding: 2.5rem 1rem;
-        }
-
-        .feature-icon {
-            font-size: 2.5rem;
-            color: #e0b973;
-            margin-bottom: 1rem;
-        }
-
-        .card {
-            background: #23222a;
-            border: none;
-            border-radius: 1.5rem;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-8px) scale(1.03);
-            box-shadow: 0 8px 32px rgba(224, 185, 115, 0.10);
-        }
-
-        .card-img-top {
-            border-radius: 1.5rem 1.5rem 0 0;
-            object-fit: cover;
-            height: 220px;
-            background: #18171c;
-        }
-
-        .card-title {
-            color: #e0b973;
-            font-weight: 700;
-            font-size: 1.2rem;
-        }
-
-        .card-text,
-        .card-price {
-            color: #f5f5f7;
-        }
-
-        .card-price {
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: #e0b973;
-        }
-
-        .btn-add {
-            background: #e0b973;
-            color: #23222a;
-            border-radius: 2rem;
-            font-weight: 700;
-            transition: background 0.2s, color 0.2s;
-        }
-
-        .btn-add:hover {
-            background: #bfa14a;
-            color: #fff;
-        }
-
-        .review {
-            background: #23222a;
-            border-radius: 1.5rem;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 2px 12px rgba(224, 185, 115, 0.08);
-            font-size: 1.1rem;
-            color: #f5f5f7;
-        }
-
-        .review .stars {
-            color: #e0b973;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer {
-            background: #18171c;
-            color: #bfbfbf;
-            padding: 2rem 0 1rem 0;
-            border-top: 1px solid #23222a;
-        }
-
-        .footer-logo {
-            font-size: 1.5rem;
-            font-weight: 900;
-            color: #e0b973;
-            margin-bottom: 1rem;
-        }
-
-        .footer-link {
-            display: block;
-            margin-bottom: 0.5rem;
-            color: #bfbfbf;
-            text-decoration: none;
-        }
-
-        .footer-link:hover {
-            color: #e0b973;
-        }
-
-        .social-icon {
-            font-size: 1.5rem;
-            color: #e0b973;
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-            transition: color 0.2s;
-        }
-
-        .social-icon:hover {
-            color: #fff;
-        }
-
-        .form-control,
-        .form-label {
-            background: #23222a;
-            color: #f5f5f7;
-            border-radius: 1rem;
-            border: 1px solid #393846;
-        }
-
-        .form-control:focus {
-            border-color: #e0b973;
-            box-shadow: 0 0 0 0.2rem rgba(224, 185, 115, 0.15);
-        }
-
-        @media (max-width: 767px) {
-            .hero-title {
-                font-size: 2rem;
-            }
-
-            .hero {
-                min-height: 60vh;
-            }
-
-            .card-img-top {
-                height: 160px;
-            }
-        }
-    </style>
+    <link rel="icon" type="image/png" href="assets/logo.png">
 </head>
 
 <body>
@@ -259,7 +89,9 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark py-3">
             <div class="container">
-                <a class="navbar-brand" href="#">Güzel</a>
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <img src="assets/logo.png" alt="Güzel Logo" style="height:80px;width:auto;object-fit:contain;">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="تبديل القائمة">
                     <span class="navbar-toggler-icon"></span>
@@ -284,6 +116,19 @@
                 <h1 class="hero-title mb-3">اكتشف الفخامة مع عطور Güzel في مصر</h1>
                 <p class="hero-subtitle mb-4">عطور أصلية، روائح تأسر الحواس وتدوم طويلاً. لأنك تستحق الأفضل دائمًا.</p>
                 <a href="#products" class="btn btn-gold shadow-lg">تسوق الآن</a>
+            </div>
+        </section>
+
+        <!-- Intro Video Section -->
+        <section class="container my-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <video src="assets/present.mp4" class="w-100 rounded shadow" controls poster="assets/logo.png" style="background:#23222a;max-height:340px;object-fit:cover;" preload="none"></video>
+                </div>
+                <div class="col-12 col-lg-6 text-center text-lg-end">
+                    <h2 class="mb-3" style="color:#e0b973;">تعرف على عطور Güzel</h2>
+                    <p style="font-size:1.15rem;line-height:2;">شاهد هذا الفيديو القصير لتتعرف على جودة وروعة عطورنا الفاخرة، ولماذا يثق بنا آلاف العملاء في مصر والعالم العربي. اكتشف أسرار التميز في كل زجاجة!</p>
+                </div>
             </div>
         </section>
 
@@ -319,8 +164,7 @@
             <div class="row justify-content-center g-4">
                 <div class="col-12 col-md-6">
                     <a href="men.html" class="text-decoration-none">
-                        <div
-                            class="card department-card h-100 shadow-sm animate__animated animate__fadeInUp text-center">
+                        <div class="card department-card h-100 shadow-sm animate__animated animate__fadeInUp text-center">
                             <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
                                 class="card-img-top department-img" alt="قسم رجالى" loading="lazy">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -331,8 +175,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <a href="women.html" class="text-decoration-none">
-                        <div
-                            class="card department-card h-100 shadow-sm animate__animated animate__fadeInUp text-center">
+                        <div class="card department-card h-100 shadow-sm animate__animated animate__fadeInUp text-center">
                             <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80"
                                 class="card-img-top department-img" alt="قسم حريمى" loading="lazy">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
@@ -550,7 +393,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- Add more FAQ items as needed -->
             </div>
         </section>
 
@@ -597,6 +439,9 @@
             </div>
             <div class="text-center mt-3" style="font-size:0.95rem;">
                 &copy; <span id="year"></span> Güzel. جميع الحقوق محفوظة.
+                <div class="developer-credit">
+                    صمم بواسطة <a href="https://islamsalah95.github.io/" target="_blank">Islam Salah</a>
+                </div>
             </div>
         </div>
     </footer>
@@ -605,39 +450,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="main.js"></script>
-    <script>
-        // Set current year in footer
-        document.getElementById('year').textContent = new Date().getFullYear();
-        // Soft scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    e.preventDefault();
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-        // Simple form validation (optional)
-        document.querySelector('form').addEventListener('submit', function (e) {
-            e.preventDefault();
-            alert('تم إرسال رسالتك بنجاح! سنقوم بالتواصل معك قريبًا.');
-            this.reset();
-        });
-        // WhatsApp order button logic for static cards
-        function setupWhatsAppOrderButtons() {
-            document.querySelectorAll('.whatsapp-order').forEach(function (btn) {
-                btn.onclick = function () {
-                    var card = btn.closest('.card-body');
-                    var product = card ? card.querySelector('.card-title').textContent.trim() : '';
-                    var url = 'https://wa.me/201125860865?text=' + encodeURIComponent('مرحبًا، أود طلب منتج: ' + product);
-                    window.open(url, '_blank');
-                    return false;
-                };
-            });
-        }
-        document.addEventListener('DOMContentLoaded', setupWhatsAppOrderButtons);
-    </script>
 </body>
 
-</html>
+</html> 
